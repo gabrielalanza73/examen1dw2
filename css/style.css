@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,500,600,700");
+body {
+  font-family: "Cabin", sans-serif;
+  font-size: 14px;
+  color: #212529;
+}
+.header-area.sticky {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.header-area.sticky .navbar-default {
+  background-color: #884bdf;
+}
+#myh1 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "oswald";
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  margin: 25px 20px;
+}
+#myh1:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 5%;
+  left: calc(50% - 50px);
+  border: 2px solid #f75903;
+  margin-top: 8px;
+}
